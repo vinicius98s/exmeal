@@ -12,12 +12,10 @@ defmodule Exmeal.MealsControllerTest do
 
       assert %{
                "meal" => %{
-                 "meal" => %{
-                   "calories" => 20,
-                   "date" => "2001-05-02",
-                   "description" => "Banana",
-                   "id" => _id
-                 }
+                 "calories" => 20,
+                 "date" => "2001-05-02",
+                 "description" => "Banana",
+                 "id" => _id
                },
                "message" => "Meal created!"
              } = response
